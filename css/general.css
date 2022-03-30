@@ -12,3 +12,7 @@ body{
 i{
   cursor: pointer;
 }
+
+h2{
+  font-size: 45px;
+}

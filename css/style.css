@@ -48,11 +48,34 @@ header .em-header-bottom i.fa-bars{
   width: 70%;
   margin-bottom: 20px;
 }
-#jumbotron .em-container-fluid h2{
-  font-size: 45px;
-}
+
 #jumbotron .em-container-fluid .em-btn{
   background-color: #cd3d0f;
 }
 /* JUMBOTRON */
 
+
+/* CAROUSEL SECTION */
+#carousel img{
+  width: 95%;
+  border-radius: 15px;
+}
+
+/* /CAROUSEL SECTION */
+
+/* PLAYHASNOLIMITS */
+#playhasnolimits span.blue{
+  color: #0072ce;
+  font-size: 14px;
+}
+#playhasnolimits p.p-description{
+  text-align: center;
+}
+/* /PLAYHASNOLIMITS */
+
+
+/* PLAYSTATION5 */
+#playstation5{
+  height: 500px;
+}
+/* /PLAYSTATION5 */

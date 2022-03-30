@@ -2,6 +2,16 @@
   background-color: rgba(127, 255, 212, 0.4);
   border: 1px solid black;
 }
+
 .em-btn{
   border-radius: 20px;
+}
+
+.em-col{
+  padding-bottom: 20px;
+}
+
+.p-description{
+  color: grey;
+  font-size: 20px;
 }
