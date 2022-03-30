@@ -92,3 +92,18 @@ header .em-header-bottom i.fa-bars{
   background-size: cover;
 }
 /* ITAKESTWO */
+
+/* SOCIAL CONTAINER*/
+@media screen and (max-width: 992px)
+{
+    #social .em-container{
+      width: 75%;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    #social .em-container{
+      width: 90%;
+    }
+}
+/* /SOCIAL CONTAINER*/
