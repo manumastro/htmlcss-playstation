@@ -61,6 +61,7 @@ header .em-header-bottom i.fa-bars{
 #carousel img{
   width: 95%;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 /* /CAROUSEL SECTION */
