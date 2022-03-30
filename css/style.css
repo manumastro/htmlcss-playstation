@@ -37,12 +37,14 @@ header .em-header-bottom i.fa-bars{
 /* JUMBOTRON */
 #jumbotron{
   padding-top: 105px;
-  height: 800px;
 }
 #jumbotron .em-container-fluid{
   background-image: url('../img/jumbo-bg.png');
   background-position: center;
   background-size: cover;
+}
+#jumbotron .em-container-fluid .em-row{
+  padding-top: 280px;;
 }
 #jumbotron .em-container-fluid img{
   width: 70%;
@@ -75,7 +77,17 @@ header .em-header-bottom i.fa-bars{
 
 
 /* PLAYSTATION5 */
-#playstation5{
-  height: 500px;
-}
+
 /* /PLAYSTATION5 */
+
+/* ITAKESTWO */
+#itakestwo img{
+  width: 60%;
+}
+
+#itakestwo .em-container-fluid{
+  background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+  background-position: center;
+  background-size: cover;
+}
+/* ITAKESTWO */
