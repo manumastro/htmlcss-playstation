@@ -1,11 +1,45 @@
 /* HEADER */
+header{
+  position: fixed;
+  width: 100%;
+}
 header .em-header-top{
-  height: 50px;
+  height: 35px;
+  background-color: black;
 }
 header .em-header-bottom{
   height: 70px;
+  background-color: white;
+}
+/* header .em-header-bottom nav ul li{
+  padding-right: 35px;
+} */
+header .em-header-bottom nav ul li a{
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+header .em-header-bottom nav ul li i{
+  font-size: 10px;
+}
+header .em-header-bottom nav ul li i.fa-magnifying-glass{
+  font-size: 20px;
+}
+header .em-header-bottom nav ul li .em-btn{
+  border-radius: 20px;
+}
+header .em-header-bottom i.fa-bars{
+  font-size: 30px;
+  color: grey;
+  padding: 5px 15px;
+  border: 1px solid rgba(184, 182, 182, 0.5);
 }
 /* /HEADER */
+
+/* JUMBOTRON */
 .jumbotron{
+  padding-top: 105px;
   height: 500px;
 }
+/* JUMBOTRON */
+

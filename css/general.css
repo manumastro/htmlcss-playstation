@@ -1,0 +1,14 @@
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+i{
+  cursor: pointer;
+}
