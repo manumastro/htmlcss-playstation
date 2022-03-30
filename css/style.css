@@ -25,9 +25,7 @@ header .em-header-bottom nav ul li i{
 header .em-header-bottom nav ul li i.fa-magnifying-glass{
   font-size: 20px;
 }
-header .em-header-bottom nav ul li .em-btn{
-  border-radius: 20px;
-}
+
 header .em-header-bottom i.fa-bars{
   font-size: 30px;
   color: grey;
@@ -53,6 +51,8 @@ header .em-header-bottom i.fa-bars{
 #jumbotron .em-container-fluid h2{
   font-size: 45px;
 }
-
+#jumbotron .em-container-fluid .em-btn{
+  background-color: #cd3d0f;
+}
 /* JUMBOTRON */
 
