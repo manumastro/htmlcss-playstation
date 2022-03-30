@@ -37,9 +37,22 @@ header .em-header-bottom i.fa-bars{
 /* /HEADER */
 
 /* JUMBOTRON */
-.jumbotron{
+#jumbotron{
   padding-top: 105px;
-  height: 500px;
+  height: 800px;
 }
+#jumbotron .em-container-fluid{
+  background-image: url('../img/jumbo-bg.png');
+  background-position: center;
+  background-size: cover;
+}
+#jumbotron .em-container-fluid img{
+  width: 70%;
+  margin-bottom: 20px;
+}
+#jumbotron .em-container-fluid h2{
+  font-size: 45px;
+}
+
 /* JUMBOTRON */
 
