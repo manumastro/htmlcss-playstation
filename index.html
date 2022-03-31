@@ -8,6 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <link rel="stylesheet" href="css/hover.css">
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="css/style.css">
@@ -178,20 +179,39 @@
     <!-- /playhasnolimits -->
 
     <!-- PLAYSTATION5 -->
-    <section id="playstation5" class="pt-5 pb-5 debug">
+    <section id="playstation5" class="pt-2 pb-4">
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 debug">
-          <div class="col col-md-5 debug h-100">
-            <h1>Console PlayStation 5</h1>
+        <div class="d-flex align-items-center row row-cols-1 row-cols-md-2 pb-4">
+          <div class="col col-md-5 h-100">
+            <h1 class="pb-2">Console PlayStation 5</h1>
+            <p class="p-description pb-2">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
+            <button type="button" class="btn btn-primary em-ps-button">Maggiori informazioni</button>
           </div>
-          <div class="col col-md-7 debug h-100">b</div>
+          <div class="col col-md-7 h-100">
+            <img class="console-big" src="img/playstation-5-thumb.png" alt="">
+          </div>
         </div>
-        <div class="row row-cols-3 row-cols-md-5 ">
-          <div class="col debug">a</div>
-          <div class="col debug">a</div>
-          <div class="col debug">a</div>
-          <div class="col debug">a</div>
-          <div class="col debug">a</div>
+        <div class="row row-cols-3 row-cols-md-5" id="accessories-row">
+          <div class="col d-flex flex-column align-items-center hover-opacity">
+            <img class="accessories pb-3" src="img/playstation-5-thumb.png" alt="">
+            <p class="fs-6 text-center">Console PS5</p>
+          </div>
+          <div class="col d-flex flex-column align-items-center hover-opacity">
+            <img class="accessories pb-3" src="img/joypad-thumb.png" alt="">
+            <p class="fs-6 text-center">Controller wireless DualSense &trade;</p>
+          </div>
+          <div class="col d-flex flex-column align-items-center hover-opacity">
+            <img class="accessories pb-3" src="img/headset-thumb.png" alt="">
+            <p class="fs-6 text-center">Cuffie wireless con microfono PULSE 3 &trade;</p>
+          </div>
+          <div class="col d-flex flex-column align-items-center hover-opacity">
+            <img class="accessories pb-3" src="img/remote-thumb.png" alt="">
+            <p class="fs-6 text-center">Telecomando Medie</p>
+          </div>
+          <div class="col d-flex flex-column align-items-center hover-opacity">
+            <img class="accessories pb-3" src="img/camera-thumb.jpg" alt="">
+            <p class="fs-6 text-center">Telecamera HD</p>
+          </div>
         </div>
       </div>
     </section>

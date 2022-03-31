@@ -1,0 +1,8 @@
+#playstation5 #accessories-row .hover-opacity{
+  cursor: pointer;
+  filter: opacity(1);
+  transition: filter 0.5s;
+}
+#playstation5 #accessories-row .hover-opacity:hover{
+  filter: opacity(0.50);
+}

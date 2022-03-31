@@ -2,6 +2,7 @@
 header{
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 header .em-header-top{
   height: 35px;
@@ -78,7 +79,18 @@ header .em-header-bottom i.fa-bars{
 
 
 /* PLAYSTATION5 */
-
+#playstation5 .em-ps-button{
+  border-radius: 20px;
+}
+#playstation5 img.console-big{
+  width: 100%;
+}
+#playstation5 img.accessories{
+  width: 50%;
+}
+#playstation5 #accessories-row .active{
+  filter: opacity(1);
+}
 /* /PLAYSTATION5 */
 
 /* ITAKESTWO */

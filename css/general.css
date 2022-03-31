@@ -7,6 +7,7 @@ a{
 
 body{
   font-family: Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 i{
