@@ -79,9 +79,7 @@ header .em-header-bottom i.fa-bars{
 
 
 /* PLAYSTATION5 */
-#playstation5 .em-ps-button{
-  border-radius: 20px;
-}
+
 #playstation5 img.console-big{
   width: 100%;
 }
@@ -129,8 +127,42 @@ header .em-header-bottom i.fa-bars{
 #nuove-uscite img{
   width: 100%;
   border-radius: 15px;
+  cursor: pointer;
 }
 /* NUOVE USCITE */
+
+/* PLAYSTATION4 */
+#playstation4 img{
+  width: 100%;
+}
+/* PLAYSTATION4 */
+
+/* PLAYSTATIONPLUS */
+#playstationplus{
+  background-color: #bebcbb;
+}
+#playstationplus #left-side img{
+  width: 60%;
+}
+#playstationplus #left-side .em-ps-button{
+  color: #0072ce;
+  width: 220px;
+  background-color: #d9dadc;
+  border: none;
+  padding: 10px 10px;
+}
+#playstationplus #right-side img{
+  height: 100%;
+  width: 100%;
+}
+/* /PLAYSTATIONPLUS */
+
+/* SCONTI */
+#sconti img{
+  width: 100%;
+}
+/* SCONTI */
+
 
 /* SOCIAL CONTAINER*/
 @media screen and (max-width: 992px)
