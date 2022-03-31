@@ -62,16 +62,13 @@ header .em-header-bottom i.fa-bars{
 
 
 /* CAROUSEL SECTION */
-#carousel .em-container-header{
-  height: 200px;
-}
+
 #carousel img{
   width: 100%;
   border-radius: 15px;
   cursor: pointer;
 }
 #carousel .em-col{
-  padding-bottom: 0;
   bottom: 0;
   transition: bottom 1s;
 }
