@@ -122,6 +122,16 @@ header .em-header-bottom i.fa-bars{
 }
 /* ITAKESTWO */
 
+/* NUOVE USCITE */
+#nuove-uscite{
+  background-color: #1f1f1f;
+}
+#nuove-uscite img{
+  width: 100%;
+  border-radius: 15px;
+}
+/* NUOVE USCITE */
+
 /* SOCIAL CONTAINER*/
 @media screen and (max-width: 992px)
 {
