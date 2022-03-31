@@ -141,19 +141,25 @@ header .em-header-bottom i.fa-bars{
 #playstationplus{
   background-color: #bebcbb;
 }
-#playstationplus #left-side img{
+#playstationplus .left-side img{
   width: 60%;
 }
-#playstationplus #left-side .em-ps-button{
+#playstationplus .left-side .em-ps-button{
   color: #0072ce;
   width: 220px;
   background-color: #d9dadc;
   border: none;
-  padding: 10px 10px;
+  padding: 8px 10px;
 }
-#playstationplus #right-side img{
+#playstationplus .right-side img{
   height: 100%;
   width: 100%;
+}
+@media screen and (max-width: 768px)
+{
+    #playstationplus{
+      padding: 30px 0;
+    }
 }
 /* /PLAYSTATIONPLUS */
 
@@ -161,8 +167,37 @@ header .em-header-bottom i.fa-bars{
 #sconti img{
   width: 100%;
 }
-/* SCONTI */
+@media screen and (max-width: 768px)
+{
+    #sconti .em-col{
+      padding-bottom: 40px;
+    }
+}
+/* /SCONTI */
 
+/* PLAYSTATION NOW */
+#playstation-now{
+  background-color: #161c3b;
+}
+#playstation-now .left-side .em-ps-button{
+  width: 220px;
+  border: none;
+  padding: 8px 10px;
+}
+#playstation-now .left-side img{
+  width: 60%;
+}
+#playstation-now .right-side img{
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 768px)
+{
+    #playstation-now{
+      padding: 30px 0;
+    }
+}
+/* /PLAYSTATION NOW */
 
 /* SOCIAL CONTAINER*/
 @media screen and (max-width: 992px)
