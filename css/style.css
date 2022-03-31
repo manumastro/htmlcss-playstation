@@ -68,14 +68,16 @@ header .em-header-bottom i.fa-bars{
   border-radius: 15px;
   cursor: pointer;
 }
+#carousel img.active{
+  height: 103%;
+  border: 2px solid blue;
+  padding: 3px;
+}
 #carousel .em-col{
   bottom: 0;
   transition: bottom 1s;
 }
-#carousel .em-col:hover{
-  position: relative;
-  bottom: 10px;
-}
+
 /* /CAROUSEL SECTION */
 
 /* PLAYHASNOLIMITS */

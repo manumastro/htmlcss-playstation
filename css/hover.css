@@ -16,3 +16,8 @@ header .em-header-bottom nav ul li a span:hover::after{
 header .em-header-bottom nav ul li a span:hover{
   color: blue;
 }
+
+#carousel .em-col:hover{
+  position: relative;
+  bottom: 10px;
+}
