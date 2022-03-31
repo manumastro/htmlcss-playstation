@@ -6,3 +6,13 @@
 #playstation5 #accessories-row .hover-opacity:hover{
   filter: opacity(0.50);
 }
+header .em-header-bottom nav ul li a span:hover::after{
+  display: inline-block;
+  content: url('../img/chevron-down-solid-hover.svg');
+  width: 10px;
+  margin-left: 5px;
+}
+
+header .em-header-bottom nav ul li a span:hover{
+  color: blue;
+}

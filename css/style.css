@@ -12,19 +12,22 @@ header .em-header-bottom{
   height: 70px;
   background-color: white;
 }
-/* header .em-header-bottom nav ul li{
-  padding-right: 35px;
-} */
+
 header .em-header-bottom nav ul li a{
   color: black;
   font-size: 16px;
   font-weight: 500;
 }
-header .em-header-bottom nav ul li i{
-  font-size: 10px;
+
+header .em-header-bottom nav ul li a span::after{
+  display: inline-block;
+  content: url('../img/chevron-down-solid.svg');
+  width: 10px;
+  margin-left: 5px;
 }
-header .em-header-bottom nav ul li i.fa-magnifying-glass{
-  font-size: 20px;
+
+header .em-header-bottom nav ul li img.lens{
+  width: 25px;
 }
 
 header .em-header-bottom i.fa-bars{
