@@ -180,7 +180,7 @@ header .em-header-bottom i.fa-bars{
   background-color: #161c3b;
 }
 #playstation-now .left-side .em-ps-button{
-  width: 220px;
+  width: 200px;
   border: none;
   padding: 8px 10px;
 }
@@ -200,16 +200,22 @@ header .em-header-bottom i.fa-bars{
 /* /PLAYSTATION NOW */
 
 /* SOCIAL CONTAINER*/
+#social img{
+  width: 100%;
+}
 @media screen and (max-width: 992px)
 {
     #social .em-container{
-      width: 75%;
+      width: 80%;
+    }
+    #social .em-col{
+      padding-bottom: 40px;
     }
 }
 @media screen and (max-width: 768px)
 {
     #social .em-container{
-      width: 90%;
+      width: 95%;
     }
 }
 /* /SOCIAL CONTAINER*/
