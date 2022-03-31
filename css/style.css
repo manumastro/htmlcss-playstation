@@ -219,3 +219,23 @@ header .em-header-bottom i.fa-bars{
     }
 }
 /* /SOCIAL CONTAINER*/
+
+
+
+/* FOOTER */
+footer{
+  background-color: #00439c;
+}
+footer #copyright img.ps-footer-logo{
+  width: 100px;
+}
+footer #copyright img.globe-footer{
+  width: 30px;
+}
+footer #copyright img.sie-logo-footer{
+  width: 140px;
+}
+footer p{
+  font-size: 15px;
+}
+/* /FOOTER */
