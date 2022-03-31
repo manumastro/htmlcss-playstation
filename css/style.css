@@ -91,6 +91,23 @@ header .em-header-bottom i.fa-bars{
 #playstation5 #accessories-row .active{
   filter: opacity(1);
 }
+#playstation5 #accessories-row .active{
+  position: relative;
+}
+#playstation5 #accessories-row .active::before{
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 90%;
+  height: 2px;
+  background-color: #0072ce;
+}
+@media screen and (max-width: 768px){
+  #playstation5 img.accessories{
+    width: 100%;
+  }
+}
 /* /PLAYSTATION5 */
 
 /* ITAKESTWO */
